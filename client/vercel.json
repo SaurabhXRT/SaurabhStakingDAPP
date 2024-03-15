@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "SaurabhStakingDAPP",
+  "builds": [{ "src": "src/main.jsx", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/src/main.jsx" }]
+}
+
